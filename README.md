@@ -7,7 +7,7 @@ This stuff is easy and is done, really, only occasionally - when you want to map
 
 Once that's done, you need only ensure the `externaldns.yaml` is applied (once). 
 
-After that, every application you deploy will need an annotation describing the DNS you want for that application. Deploy it and then wait a little while. Say 5 minutes. And it should actually work. See this `nginx.yaml` configuration for an example of how to annotate a `service` correctly.
+After that, every application you deploy will need an annotation describing the DNS you want for that application. Deploy it and then wait a little while. Say 5 minutes. And it should actually work. See this [`nginx.yaml`](https://github.com/bootiful-kubernetes/external-dns/blob/main/nginx.yaml) configuration for an example of how to annotate a `service` correctly.
 
 ```yaml
 ....
